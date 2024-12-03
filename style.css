@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#currency-form {
+    width: 50%;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+#currency-form h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+select, input[type="number"] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+select:focus,
+input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #4CAF50, #3e8e41);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #3e8e41, #2c6e33);
+}
+
+button:active {
+    background: #2c6e33;
+    transform: scale(0.98);
+}
+
+#results-container {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
